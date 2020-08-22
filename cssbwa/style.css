@@ -1,0 +1,65 @@
+/* Install font */
+
+@font-face {
+    font-family: One;
+    src: url('../cssbwa/fonts/FredokaOne-Regular.ttf');
+}
+
+body {
+    margin: 0;
+    font-family: 'Do Hyeon';
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(to bottom, rgb(98, 24, 196), rgb(36, 3, 78));
+    height: 550px;
+}
+
+.header .logo {
+    font-size: 32px;
+    float: left;
+    color: white;
+    font-family: One;
+}
+
+.header .navigation {
+    float: right;
+    margin-top: 42px;
+}
+
+.header .navigation li {
+    float: right;
+    margin-left: 20px;
+    font-size: 16px;
+    display: block;
+}
+
+.header .navigation li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header .navigation li a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.parent {
+    margin-top: 100px;
+}
+
+.icon-kelas {
+    width: 250px;
+    height: 250px;
+    background-image: url('../cssbwa/img/foto.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
